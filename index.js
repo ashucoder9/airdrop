@@ -42,10 +42,10 @@ const airDropSol = async() => {
 };
 
 //Main Function
-const driverFunction = async() => {
+const mainFunction = async() => {
   await getWalletBalance();
   await airDropSol();
   await getWalletBalance();
 };
 
-driverFunction();
+mainFunction();
